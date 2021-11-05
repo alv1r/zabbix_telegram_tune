@@ -168,11 +168,11 @@ zabbix_export:
         -
           event_source: AUTOREGISTRATION
           operation_mode: PROBLEM
-          subject: 'Autoregistration: {HOST.HOST}'
+          subject: 'Autoregistration: *{HOST.HOST}*'
           message: |
-            Host name: {HOST.HOST}
-            Host IP: {HOST.IP}
-            Agent port: {HOST.PORT}
+            Host name: *{HOST.HOST}*
+            Host IP: *{HOST.IP}*
+            Agent port: *{HOST.PORT}*
         -
           event_source: TRIGGERS
           operation_mode: PROBLEM
