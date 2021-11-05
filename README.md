@@ -14,4 +14,4 @@ Administration -> Media types.
 
 Сообщения будут приходить примерно такого вида:
 
-
+![](https://github.com/alv1r/zabbix_telegram_tune/blob/master/sample.PNG)
